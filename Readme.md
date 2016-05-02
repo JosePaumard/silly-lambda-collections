@@ -1,6 +1,6 @@
 ## Lambda Collections
 
-This is the repository of my university talk for Devoxx France 2016, about collections performance, CPU structure and pointer chasing. 
+This is the repository of my university talk for Devoxx France 2016, about collections performance, CPU structure and pointer chasing. The slides (in french) are here: The slides are here: http://fr.slideshare.net/jpaumard/arraylist-et-linkedlist-sont-dans-un-bateau. 
 
 This code shows how it is possible to implement List, Set and Map from the JDK using lambda expressions, to a certain extent. These implementations (in fact they are not!) are immutable and can only support small collections and maps, holding a only a few elements or a few key / value pairs. They follow the Java 9 guidelines: no null elements are allowed, duplicate in sets should raise exceptions, and duplicate keys in maps should also raise exceptions. 
 
